@@ -1,5 +1,5 @@
 import numpy as np
-from Retriver import Retriver
+from .Retriver import Retriver
 
 class BruteForceRetriever(Retriver):
     def __init__(self, chunks, embeddings):

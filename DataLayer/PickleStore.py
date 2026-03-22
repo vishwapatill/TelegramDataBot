@@ -1,6 +1,6 @@
 import pickle
 import os
-from StorageBackend import StorageBackend
+from .StorageBackend import StorageBackend
 
 class PickleBackend(StorageBackend):
     def __init__(self, path):

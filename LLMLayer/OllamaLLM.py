@@ -1,5 +1,5 @@
 import ollama
-from LLMStruct import BaseLLM
+from .LLMStruct import BaseLLM
 from typing import List, Dict, Any, Optional
 class OllamaLLM(BaseLLM):
     """Ollama LLM provider using the official Ollama Python SDK."""
