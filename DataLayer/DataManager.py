@@ -3,7 +3,7 @@ import hashlib
 
 class DataManager:
 
-    def __init__(self, file_path, backend, embed_model,chunkSize=300,overlap=50):
+    def __init__(self, file_path, backend, embed_model,chunkSize=400,overlap=150):
         self.file_path = file_path
         self.backend = backend
         self.model = embed_model
