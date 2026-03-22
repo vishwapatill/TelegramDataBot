@@ -42,8 +42,10 @@ StorageBackend
 DataManager
 
 ---
+---
+## Class Diagram
 ![Class Diagram](assets/ClassDiagram.png)
-
+---
 ## Query Flow (Runtime)
 
 1. User sends a message or `/ask` command on Telegram
@@ -55,9 +57,12 @@ DataManager
 7. LLM generates response
 8. Response is sent back to user
 9. Interaction is logged
+
+---
+---
+## Query Flow Diagram
 ![Query Flow](./assets/QueryFlowdaigram.png)
 ---
-
 ##  Components
 
 ### 1. Telegram Layer (Interface Layer)
