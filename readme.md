@@ -59,10 +59,10 @@ Built with real-world considerations:
 - Logging and observability  
 - Scalable architecture  
 
----
 
-This makes the system not just a demo, but a **flexible, production-ready RAG framework**.
-----
+### This makes the system not just a demo, but a **flexible, production-ready RAG framework**.
+
+---
 
 #  RAG-Based Telegram Bot – System Design
 
