@@ -20,19 +20,6 @@
 | /start                 | Resumes the bot for that chat (sets polling active)                        |
 | /quit                  | Pauses the bot for that chat (ignores /ask and free-text)                  |
 
-
-#  RAG-Based Telegram Bot – System Design
-
-##  Overview
-
-This project implements a **Retrieval-Augmented Generation (RAG)** system integrated with a **Telegram Bot**.
-
-It allows users to:
-- Ask questions via Telegram
-- Retrieve relevant knowledge from custom data
-- Generate intelligent responses using an LLM
-
----
 ## 🚀 What Makes This System Stand Out
 
 ### 🧩 Modular Architecture
@@ -75,7 +62,20 @@ Built with real-world considerations:
 ---
 
 This makes the system not just a demo, but a **flexible, production-ready RAG framework**.
+----
 
+#  RAG-Based Telegram Bot – System Design
+
+##  Overview
+
+This project implements a **Retrieval-Augmented Generation (RAG)** system integrated with a **Telegram Bot**.
+
+It allows users to:
+- Ask questions via Telegram
+- Retrieve relevant knowledge from custom data
+- Generate intelligent responses using an LLM
+
+---
 ##  High-Level Architecture
 User (Telegram) → Telegram Bot → RAGBot → Retriever → LLM → Response
 ↓
